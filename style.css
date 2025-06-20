@@ -1,0 +1,395 @@
+:root {
+    --blue: #313a41;
+    --white: #fff;
+    --cream: #88dbbe !important;
+}
+
+* {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.playa .banner {
+    margin-top: 0 !important;
+    padding-bottom: 50px;
+
+}
+
+.card-tipo .card-caption .cc-inner .tag {
+    background-color: #313e48;
+}
+
+.tipo-hogar .contw .title-s1,
+.tipo-hogar .contw .title-sm {
+    color: #fff;
+}
+
+.card-tipo .card-caption {
+    padding-right: 0em;
+    box-shadow: 0px 0px 36px #a8a8a869;
+    ;
+}
+
+.btn.btn-solid,
+.tipo-hogar .filtro-cont .btn-solid.btn {
+    background: var(--white);
+}
+
+.btn.btn-solid:focus,
+.btn.btn-solid:hover {
+    background: var(--white);
+}
+
+.main-footer {
+    background-color: #2a6651;
+    padding: 30px 0;
+    position: relative;
+    z-index: 100;
+}
+
+/*--------------------------------------------------------------
+Common
+--------------------------------------------------------------*/
+
+.bg-gradient:before {
+    position: absolute;
+
+    content: " ";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.module-title {
+    position: relative;
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    color: #111;
+    margin: 0 0 70px;
+}
+
+.module-subtitle {
+    text-align: center;
+    font-size: 16px;
+    color: #111;
+    margin-bottom: 70px;
+}
+
+
+
+/* Caption */
+.titan-caption {
+    position: relative;
+    display: table;
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.titan-caption {
+    position: relative;
+    display: table;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.caption-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+
+/* Navbar search
+
+.dropdown-search {
+position: relative;
+padding: 5px;
+}
+
+.dropdown-search .form-control {
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-size: 11px;
+}
+
+.search-btn {
+position: absolute;
+background: transparent;
+border: none;
+overflow: hidden;
+top: 50%;
+right: 1px;
+width: 42px;
+height: 40px;
+line-height: 38px;
+font-size: 14px;
+outline: none;
+color: #999;
+margin-top: -20px;
+}*/
+/*--------------------------------------------------------------
+Header
+--------------------------------------------------------------*/
+.home-section {
+    position: relative;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    z-index: 0;
+    background-size: cover;
+}
+
+
+
+
+/* Landing Page Header */
+.landing-header:before {
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(119, 47, 109, 0.52) 95%, rgba(115, 35, 105, 0.58) 100%);
+    content: " ";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.tipo-hogar .contw .title-s1,
+.tipo-hogar .contw .title-sm {
+    color: #fff;
+}
+
+.playa .banner .contw p {
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+}
+
+section#home {
+    padding-top: 0 !important;
+}
+
+.formulario {
+    background-color: #49a484;
+}
+
+.formulario form .form-group .input-group .input-group-text {
+    background-color: #ffffff;
+    border-color: var(--blue);
+    color: #000;
+}
+
+button#submitForm {
+    background: var(--cream);
+}
+
+.formulario {
+    padding: 50px 50px 50px;
+}
+
+.contacto::before {
+    background-color: #fff;
+}
+
+.contacto .contw .info .azul.lead strong,
+.contacto .contw .info .modal .modal-dialog .modal-body .playa .banner .cont p.azul strong,
+.contacto .contw .info .playa .banner .modal .modal-dialog .modal-body .cont p.azul strong,
+.contacto .modal .modal-dialog .modal-body .cont .info .azul.lead strong,
+.contacto .modal .modal-dialog .modal-body .cont .info .playa .banner .contw p.azul strong,
+.contacto .modal .modal-dialog .modal-body .playa .banner .cont .info p.azul strong,
+.contacto .playa .banner .contw .info p.azul strong,
+.contacto .playa .banner .modal .modal-dialog .modal-body .cont .info p.azul strong,
+.modal .modal-dialog .modal-body .contacto .cont .info .azul.lead strong,
+.modal .modal-dialog .modal-body .contacto .cont .info .playa .banner .contw p.azul strong,
+.modal .modal-dialog .modal-body .contacto .playa .banner .cont .info p.azul strong,
+.modal .modal-dialog .modal-body .playa .banner .contacto .cont .info p.azul strong,
+.playa .banner .contacto .contw .info p.azul strong,
+.playa .banner .contacto .modal .modal-dialog .modal-body .cont .info p.azul strong,
+.playa .banner .modal .modal-dialog .modal-body .contacto .cont .info p.azul strong,
+.title-s1.azul strong,
+.contacto .contw .info .lead strong,
+.contacto .contw .info .modal .modal-dialog .modal-body .playa .banner .cont p strong,
+.contacto .contw .info .playa .banner .modal .modal-dialog .modal-body .cont p strong,
+.contacto .modal .modal-dialog .modal-body .cont .info .lead strong,
+.contacto .modal .modal-dialog .modal-body .cont .info .playa .banner .contw p strong,
+.contacto .modal .modal-dialog .modal-body .playa .banner .cont .info p strong,
+.contacto .playa .banner .contw .info p strong,
+.contacto .playa .banner .modal .modal-dialog .modal-body .cont .info p strong,
+.modal .modal-dialog .modal-body .contacto .cont .info .lead strong,
+.modal .modal-dialog .modal-body .contacto .cont .info .playa .banner .contw p strong,
+.modal .modal-dialog .modal-body .contacto .playa .banner .cont .info p strong,
+.modal .modal-dialog .modal-body .playa .banner .contacto .cont .info p strong,
+.playa .banner .contacto .contw .info p strong,
+.playa .banner .contacto .modal .modal-dialog .modal-body .cont .info p strong,
+.playa .banner .modal .modal-dialog .modal-body .contacto .cont .info p strong {
+    color: var(--blue) !important;
+}
+
+.main-header .contw {
+
+    justify-content: space-between;
+}
+
+.main-header .contw .nav-cont nav,
+.main-header .modal .modal-dialog .modal-body .cont .nav-cont nav,
+.modal .modal-dialog .modal-body .main-header .cont .nav-cont nav {
+    border-left: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.formulario h2 {
+    color: var(--white);
+    font-weight: 600;
+}
+
+
+/* ANIMACIÓN */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+
+
+.home {
+    /* height: 100vh; */
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding:50px 15px; */
+    position: relative;
+}
+
+
+
+.home .home-text {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+
+.home .home-text p {
+    margin: 0;
+    overflow-y: hidden;
+}
+
+.home .home-text p span {
+    font-weight: 700;
+    display: inline-block;
+    display: none;
+    font-family: "FoxSansPro Heavy", Arial, Helvetica, sans-serif;
+    font-size: 120px;
+    line-height: 1.3em;
+    color: #fff;
+    text-transform: uppercase
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 100%
+    }
+
+    .home .home-text p span {
+        font-size: 4.5rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .home .home-text p span {
+        font-size: 9vw;
+    }
+}
+
+
+.home .home-text p span.text-in {
+    display: block;
+    animation: textIn .5s ease;
+}
+
+.home .home-text p span.text-out {
+    animation: textOut .5s ease;
+}
+
+.main-banner .frase .inner {
+    max-width: 1200px;
+}
+
+@keyframes textIn {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes textOut {
+    0% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+
+    }
+}
+
+.center-proto {
+    justify-content: center;
+}
+
+.card-tipo .card-thumb img {
+    width: 100%;
+    height: auto;
+    object-fit: unset
+}
+
+.btn.btn-solid,
+.tipo-hogar .filtro-cont .btn-solid.btn {
+    color: var(--blue);
+}
+
+.crema {
+    color: var(--cream) !important;
+}
+
+.titulo-azul {
+    color: var(--blue) !important;
+}
+
+
+.btn-flotante-wpp {
+    position: fixed;
+    bottom: 80px;
+    /* Ajusta la distancia respecto al borde inferior */
+    right: 20px;
+    z-index: 1000;
+}
+
+.btn-flotante-wpp a {
+    display: flex;
+    align-items: center;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-flotante-wpp img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
